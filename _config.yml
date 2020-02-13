@@ -1,1 +1,42 @@
-theme: jekyll-theme-minimal
+title: "Federico"
+description: "Federico's Blog ~ Technical posts"
+show_downloads: false
+show_repo: false
+# google_analytics: UA-XXXXXXXXX-X
+
+# Build settings
+permalink: /:categories/:title.html
+markdown: kramdown
+github: [metadata]
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - 'README.md'
+plugins:
+  - jekyll-feed
+  - github-pages
+defaults:
+  - scope:
+      path: _posts
+    values:
+      layout: post
+      author: Federico
+
+#bio info
+name: "Federico"
+know_as: "Federico"
+what_do_as: "Cyber Security"
+live: "London"
+certificate: "OSCP, OSCE"
+team: "d0nkeys @ <a href='https://www.hackthebox.eu/home/teams/profile/45'>HackTheBox</a>"
+github: "https://github.com/federico22285/"
+linkedin: "https://www.linkedin.com/#"
+twitter: "https://twitter.com/#"
