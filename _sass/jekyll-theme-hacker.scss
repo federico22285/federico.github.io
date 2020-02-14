@@ -15,6 +15,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  cursor: url(../icons/cursor.cur), auto;
 }
 
 /* General & 'Reset' Stuff */
@@ -233,7 +234,7 @@ hr {
 */
 
 a {
-  color: #63c0f5;
+  color: #d7dde0;
   text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
 }
 
