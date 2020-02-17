@@ -15,5 +15,7 @@ layout: default
 </ul>
 <h1 id="posts">Services</h1>
 <ul>
-    <li><strong>{{ post.date | date: '%b, %d %Y' }}</strong> <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+	{% for lala in site.posts %}
+    	<li><strong>{{ post.date | date: '%b, %d %Y' }}</strong> <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+    {% endfor %}
 </ul>
