@@ -30,11 +30,5 @@ defaults:
 
 #bio info
 name: "Federico"
-know_as: "Federico"
 what_do_as: "Cyber Security"
 live: "London"
-certificate: "OSCP, OSCE"
-team: "d0nkeys @ <a href='https://www.hackthebox.eu/home/teams/profile/45'>HackTheBox</a>"
-github: "https://github.com/federico22285/"
-linkedin: "https://www.linkedin.com/#"
-twitter: "https://twitter.com/#"
