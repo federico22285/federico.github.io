@@ -13,9 +13,9 @@ layout: default
     	<li><strong>{{ post.date | date: '%b, %d %Y' }}</strong> <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
-<h1 id="posts">Services</h1>
+<h1 id="lala">Services</h1>
 <ul>
 	{% for lala in site.posts %}
-    	<li><strong>{{ lala.date | date: '%b, %d %Y' }}</strong> <a href="{{ lala.url | prepend: site.baseurl }}">{{ lala.title }}</a></li>
+    	<li><strong>{{ lala.date | date: '%b, %d %Y' }}</strong> <a href="{{ post.url | prepend: site.baseurl }}">{{ lala.title }}</a></li>
     {% endfor %}
 </ul>
