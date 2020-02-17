@@ -13,9 +13,7 @@ layout: default
     	<li><strong>{{ post.date | date: '%b, %d %Y' }}</strong> <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
-<h1 id="services">Services</h1>
+<h1 id="posts">Services</h1>
 <ul>
-	{% for service in site.services %}
-    	<li><strong>{{ service.date | date: '%b, %d %Y' }}</strong> <a href="{{ service.url | prepend: site.baseurl }}">{{ service.title }}</a></li>
-    {% endfor %}
+    <li><strong>{{ post.date | date: '%b, %d %Y' }}</strong> <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
 </ul>
