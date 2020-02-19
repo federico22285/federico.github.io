@@ -21,6 +21,7 @@ exclude:
 plugins:
   - jekyll-feed
   - github-pages
+  - jekyll-diagrams
 
 defaults:
   - scope:
